@@ -1,0 +1,37 @@
+{
+    "title": "Kastanjer",
+    "authors": [
+        {
+            "firstName": "Herman",
+            "lastName": "Aagaard",
+            "age": 21
+        },
+        {
+            "firstName": "Ola",
+            "lastName": "Nordmann",
+            "age": 50
+        }
+    ]
+}
+
+{
+    "title": "Fugleskremsler",
+    "authors": [
+        {
+            "firstName": "Lars",
+            "lastName": "Olsen",
+            "age": 42
+        }
+    ]
+}
+
+{
+            "firstName": "Ola",
+            "lastName": "Nordmann",
+            "age": 42
+        }
+
+logging.level.org.springframework.web.client.RestTemplate=TRACE
+debug=true
+logging.level.org.apache.http=TRACE
+logging.level.httpclient.wire=TRACE

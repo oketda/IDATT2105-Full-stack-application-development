@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+</head>
+<body>
+    <h1>Task 4: Calculator</h1>
+    <hr>
+    <div id="main">
+        <calculator @log-calculation="newLog"></calculator>
+        <log :log="logData"></log>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./components/Calculator.js"></script>
+    <script src="./Components/Log.js"></script>
+    <script>
+        const mountedApp = app.mount('#main');
+    </script>
+</body>
+</html>
